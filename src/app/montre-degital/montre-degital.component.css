@@ -1,0 +1,20 @@
+body
+{
+    padding:0px;
+    margin:0px;
+}
+
+.heure
+{    
+    position: absolute;
+    top:43%;
+    left:29%;     
+}
+
+.Box
+{
+    border:4mm double #347474;   
+    padding:0px 55px;
+    font-size: 35px;
+    color: #35495e;
+}

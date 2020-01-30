@@ -1,0 +1,10 @@
+<div class="heure">
+    <span *ngIf="Heure<10" class="Box">0{{Heure}}:</span>
+    <span *ngIf="Heure>=10" class="Box">{{Heure}}:</span>
+
+    <span *ngIf="Minute<10" class="Box">0{{Minute}}</span>
+    <span *ngIf="Minute>=10" class="Box">{{Minute}}</span>
+
+    <span *ngIf="Seconde<10" class="Box">:0{{Seconde}}</span>
+    <span *ngIf="Seconde>=10" class="Box">:{{Seconde}}</span>
+</div>
